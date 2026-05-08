@@ -329,6 +329,7 @@ filtered_bibtex_keywords:
     eprint,
     google_scholar_id,
     hal,
+    data,
     html,
     inspirehep_id,
     keyword,
