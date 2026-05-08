@@ -111,6 +111,12 @@
         }
       }
 
+      .additional-info {
+        font-style: italic;
+        color: var(--global-text-color-light);
+        margin-top: 0.1rem;
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
