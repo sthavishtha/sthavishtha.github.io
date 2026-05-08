@@ -25,8 +25,6 @@
 
   h2.bibliography {
     color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
   }
@@ -69,6 +67,23 @@
 
       .title {
         font-weight: bolder;
+
+        a {
+          color: var(--global-theme-color);
+
+          &:hover {
+            text-decoration: none;
+            border-bottom: 1px solid var(--global-theme-color);
+          }
+        }
+      }
+
+      .keyword.btn {
+        pointer-events: none;
+        color: var(--global-bg-color) !important;
+        background-color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+        font-size: 0.75em;
       }
 
       .author {
