@@ -4,7 +4,7 @@ import os
 import sys
 import yaml
 from datetime import datetime
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 
 
 def load_scholar_user_id() -> str:
@@ -62,7 +62,9 @@ def get_scholar_citations() -> None:
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
-    scholarly.use_proxy(backend="free_proxies")
+    pg = ProxyGenerator()
+    pg.FreeProxies()
+    scholarly.use_proxy(pg)
     scholarly.set_timeout(30)
     scholarly.set_retries(3)
     try:
