@@ -196,7 +196,10 @@
     </div>
     {% if entry.additional_info %}
       <div class="additional-info">
-        {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}
+        <span class="additional-info-badge">
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+          {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}
+        </span>
       </div>
     {% endif %}
 

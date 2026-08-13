@@ -120,9 +120,31 @@
       }
 
       .additional-info {
-        font-style: italic;
-        color: var(--global-text-color-light);
-        margin-top: 0.1rem;
+        margin-top: 0.3rem;
+
+        .additional-info-badge {
+          display: inline-flex;
+          align-items: baseline;
+          gap: 0.45em;
+          padding: 0.2em 0.75em;
+          border: 1px solid var(--global-theme-color);
+          border-radius: 1rem;
+          background-color: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+          color: var(--global-theme-color);
+          font-size: 0.85rem;
+          font-weight: 600;
+          font-style: normal;
+          line-height: 1.5;
+
+          i {
+            font-size: 0.8em;
+          }
+
+          a {
+            color: inherit;
+            text-decoration: underline;
+          }
+        }
       }
 
       .links {
