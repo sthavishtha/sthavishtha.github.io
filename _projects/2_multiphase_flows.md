@@ -36,19 +36,6 @@ _styles: >
     margin-top: 0.4rem;
     font-size: 0.85rem;
   }
-  .media-placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 220px;
-    padding: 1.5rem;
-    border: 2px dashed var(--global-divider-color);
-    border-radius: 8px;
-    color: var(--global-text-color-light);
-    font-size: 0.9rem;
-    letter-spacing: 0.02em;
-  }
 ---
 
 ## Sea ice physics
@@ -72,13 +59,12 @@ At the pore scale, sea ice is a `multiphase porous material` composed of interco
 
 Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extraterrestrial regolith`. Under dry conditions, spatiotemporal variations in temperature and vapor pressure cause the redistribution of ice within the pore spaces of these mixtures, leading to `ice migration, coarsening, and aggregation`. These processes strongly influence the long-term stability of subsurface ice. Here, we aim to develop a mechanistic understanding of these `pore-scale` processes using `phase-field` simulations.
 
-<div class="row justify-content-sm-center mt-4">
+<div class="row justify-content-sm-center mt-4 video-pair">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <!-- {% raw %}{% include video.liquid path="assets/video/drysnow.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}{% endraw %} -->
-    <div class="media-placeholder">video &mdash; vapor-driven ice migration and coarsening</div>
+    {% include video.liquid path="assets/video/dsm.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+    <div class="caption">Pore-scale simulation of vapor-driven ice migration and coarsening in a tortuous pore space. Video credit: Jackson Baglino.</div>
   </div>
 </div>
-<div class="caption">Phase-field simulation of dry snow metamorphism in an ice-sediment mixture.</div>
 
 ---
 
