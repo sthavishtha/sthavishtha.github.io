@@ -7,11 +7,14 @@ importance: 2
 category: research
 related_publications: false
 _styles: >
-  .theme-lead {
-    border-left: 3px solid var(--global-theme-color);
-    padding-left: 1rem;
-    margin: 1.5rem 0 2rem 0;
-    font-size: 1.05rem;
+  .video-pair video {
+    max-height: 340px;
+    width: 100%;
+    object-fit: contain;
+  }
+  .video-pair .caption {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
   }
   .media-placeholder {
     display: flex;
@@ -32,12 +35,16 @@ _styles: >
 
 At the pore scale, sea ice is a multiphase porous material composed of interconnected brine channels that evolve in time and space. Existing sea-ice growth models operating at geophysical or Darcy scales treat sea ice as a homogenized medium and neglect its evolving microstructure. However, a pore-scale description of sea ice is essential because its evolution is governed by a two-way coupling between microstructure and brine transport -- changes in brine-channel morphology alter local transport properties, while fluid flow and salt redistribution further modify melting, freezing, and brine-channel connectivity. Here, we aim to fundamentally understand the mechanisms governing sea-ice microstructural evolution. Our pore-scale simulations will help formulate improved melt-rate and brine-transport parameterizations for large-scale ocean models.
 
-<div class="row justify-content-sm-center mt-4">
-  <div class="col-sm-10 mt-3 mt-md-0">
+<div class="row justify-content-sm-center align-items-end mt-4 video-pair">
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/seaicemicrostructure.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true playsinline=true %}
+    <div class="caption">Evolving brine-channel microstructure.</div>
+  </div>
+  <div class="col-md-6 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/seaiceconvection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true playsinline=true %}
+    <div class="caption">Convective brine transport through the pore space.</div>
   </div>
 </div>
-<div class="caption">Pore-scale structure of sea ice and its evolution under coupled brine transport and phase change.</div>
 
 ---
 
