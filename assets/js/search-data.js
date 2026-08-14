@@ -407,7 +407,7 @@ ninja.data = [{
               window.location.href = "/projects/1_computational_mechanics/";
             },},{id: "projects-mechanics-of-multiphase-flows",
           title: 'Mechanics of multiphase flows',
-          description: "pore-scale physics of sea ice and dry snow, resolved with phase-field simulations",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_multiphase_flows/";
             },},{id: "projects-mechanics-of-multi-component-fluid-structure-interaction",
