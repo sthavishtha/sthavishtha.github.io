@@ -50,6 +50,11 @@
       {% if include.playsinline %}
         playsinline
       {% endif %}
+      {% if include.nodownload %}
+        controlsList="nodownload noplaybackrate"
+        disablePictureInPicture
+        oncontextmenu="return false;"
+      {% endif %}
       {% if include.poster %}
         poster="{{ include.poster }}"
       {% endif %}

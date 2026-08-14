@@ -17,6 +17,12 @@ _styles: >
   .video-pair video {
     width: 100%;
     height: auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+  .video-pair figure {
+    margin: 0;
   }
   @media (min-width: 768px) {
     .video-pair > div:first-child {
@@ -51,12 +57,12 @@ At the pore scale, sea ice is a `multiphase porous material` composed of interco
 
 <div class="row justify-content-sm-center align-items-end mt-4 video-pair">
   <div class="col-md-6 mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/seaicemicrostructure.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true playsinline=true %}
-    <div class="caption">Evolving brine-channel microstructure.</div>
+    {% include video.liquid path="assets/video/seaicemicrostructure.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+    <div class="caption">Microstructural evolution of sea ice at the ice-ocean boundary during top-down freezing. Video credit: Junning Liu.</div>
   </div>
   <div class="col-md-6 mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/seaiceconvection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true playsinline=true %}
-    <div class="caption">Convective brine transport through the pore space.</div>
+    {% include video.liquid path="assets/video/seaiceconvection.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+    <div class="caption">Buoyancy-driven convective transport of brine during interfacial melting of sea ice. Video credit: Junning Liu. </div>
   </div>
 </div>
 
@@ -68,7 +74,7 @@ Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extrat
 
 <div class="row justify-content-sm-center mt-4">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <!-- {% raw %}{% include video.liquid path="assets/video/drysnow.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true playsinline=true %}{% endraw %} -->
+    <!-- {% raw %}{% include video.liquid path="assets/video/drysnow.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}{% endraw %} -->
     <div class="media-placeholder">video &mdash; vapor-driven ice migration and coarsening</div>
   </div>
 </div>
