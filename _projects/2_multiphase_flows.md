@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mechanics of multiphase flows
-description: pore-scale physics of sea ice and dry snow, resolved with phase-field simulations
+# description: pore-scale physics of sea ice and dry snow, resolved with phase-field simulations
 img: assets/img/publication_preview/pinchoff.png
 importance: 2
 category: research
@@ -52,3 +52,12 @@ Ice-sediment mixtures are commonly found in terrestrial permafrost and extraterr
   </div>
 </div>
 <div class="caption">Phase-field simulation of dry snow metamorphism in an ice-sediment mixture.</div>
+
+---
+
+## References
+
+<div class="publications">
+  {% bibliography --query @*[key=bhopalam2026tbd1] %}
+  {% bibliography --query @*[key=bhopalam2026tbd3] %}
+</div>
