@@ -405,9 +405,9 @@ ninja.data = [{
           description: "numerical methods for interface problems — isogeometric analysis, lattice Boltzmann, and high-fidelity solvers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_computational_mechanics/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-mechanics-of-multiphase-flows",
+          title: 'Mechanics of multiphase flows',
+          description: "Applications in cryo-hydrological porous media",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_multiphase_flows/";
             },},{id: "projects-mechanics-of-fluid-structure-interaction",
