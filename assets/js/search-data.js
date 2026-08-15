@@ -405,14 +405,14 @@ ninja.data = [{
           description: "numerical methods for interface problems — isogeometric analysis, lattice Boltzmann, and high-fidelity solvers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_computational_mechanics/";
-            },},{id: "projects-mechanics-of-multiphase-flows",
-          title: 'Mechanics of multiphase flows',
+            },},{id: "projects-",
+          title: '',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_multiphase_flows/";
-            },},{id: "projects-mechanics-of-multi-component-fluid-structure-interaction",
-          title: 'Mechanics of multi-component fluid-structure interaction',
-          description: "elasto-capillary coupling between nonlinear elastic solids and immiscible fluids",
+            },},{id: "projects-mechanics-of-fluid-structure-interaction",
+          title: 'Mechanics of fluid-structure interaction',
+          description: "Elasto-capillarity between immiscible fluids and nonlinear elastic solids",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_fsi/";
             },},{id: "teachings-data-science-fundamentals",
