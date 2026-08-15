@@ -62,7 +62,7 @@ We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet tr
 ## References
 
 <div class="publications">
-  {% bibliography --query @*[key=bhopalam2024fibrotaxis] %}
-  {% bibliography --query @*[key=bhopalam2026simulating] %}
   {% bibliography --query @*[key=bhopalam2026droplet] %}
+  {% bibliography --query @*[key=bhopalam2026simulating] %}
+  {% bibliography --query @*[key=bhopalam2024fibrotaxis] %}
 </div>
