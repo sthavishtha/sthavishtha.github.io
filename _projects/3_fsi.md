@@ -6,12 +6,29 @@ img: assets/img/publication_preview/fibrotaxis.png
 importance: 3
 category: research
 _styles: >
-  .publications ol.bibliography li .col-sm-3 {
-    display: none;
+  .reference-list {
+    counter-reset: refnum;
   }
-  .publications ol.bibliography li .col-sm-9 {
-    flex: 0 0 100%;
-    max-width: 100%;
+  .reference-list ol.bibliography {
+    list-style: none;
+    padding-left: 2rem;
+    margin: 0;
+  }
+  .reference-list ol.bibliography li {
+    position: relative;
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+  }
+  .reference-list ol.bibliography li::before {
+    counter-increment: refnum;
+    content: counter(refnum) ".";
+    position: absolute;
+    left: -2rem;
+    width: 1.5rem;
+    text-align: right;
+  }
+  .reference-list .reference {
+    font-size: 0.95rem;
   }
   .video-pair video,
   .video-pair img {
@@ -31,6 +48,13 @@ _styles: >
     .video-pair > div:last-child {
       padding-left: 1.75rem;
     }
+    .video-pair img.schematic {
+      width: auto;
+      max-width: 100%;
+      max-height: 260px;
+      display: block;
+      margin: 0 auto;
+    }
   }
   .video-pair .caption {
     margin-top: 0.4rem;
@@ -40,16 +64,16 @@ _styles: >
 
 ## Bubble/droplet transport on soft solids
 
-We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet transport mechanism that enables droplet motion on `soft anisotropic solids`. The droplet transport herein, emerges from `elasto-capillary` interactions between the droplet and the underlying anisotropic solid. This droplet transport mechanism complements other elasto-capillary driven droplet transport mechanisms, such as [durotaxis](https://doi.org/10.1073/pnas.1307122110), [tensotaxis](https://doi.org/10.1016/j.eml.2017.01.004), [bendotaxis](https://doi.org/10.1103/PhysRevLett.122.074503) and substrate stretching. Droplet fibrotaxis has potential applications in self-cleaning surfaces, microfluidics, lab-on-a-chip technologies, and medical diagnostics, where interactions between deformable solids and droplets play an important role.
+We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet transport mechanism that enables spontaneous droplet motion on `soft anisotropic solids`. The droplet transport herein, emerges from [elasto-capillary](https://doi.org/10.1146/annurev-conmatphys-031016-025326) interactions between the droplet and the underlying anisotropic solid. This droplet transport mechanism complements other elasto-capillary driven droplet transport mechanisms, such as [durotaxis](https://doi.org/10.1073/pnas.1307122110), [tensotaxis](https://doi.org/10.1016/j.eml.2017.01.004), [bendotaxis](https://doi.org/10.1103/PhysRevLett.122.074503) and substrate stretching. Droplet fibrotaxis has potential applications in `self-cleaning of surfaces, microfluidics, lab-on-a-chip technologies, and medical diagnostics`, where interactions between deformable solids and droplets play an important role.
 
 <div class="row justify-content-sm-center align-items-center mt-4 video-pair">
   <div class="col-md-5 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/pages/fibroschematic.png" class="img-fluid" alt="Droplet resting on a fiber-reinforced soft solid, with the fiber orientation indicated" %}
-    <div class="caption">A droplet on a soft solid reinforced by fibers along a preferred orientation.</div>
+    {% include figure.liquid loading="eager" path="assets/img/pages/fibroschematic.png" class="img-fluid schematic" alt="Droplet resting on a fiber-reinforced soft solid, with the fiber orientation indicated" %}
+    <div class="caption">Schematic of a droplet on a fiber-reinforced deformable solid with embedded fibers inducing anisotropy.</div>
   </div>
   <div class="col-md-7 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/Fibrotaxis_3D_planar.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Three-dimensional simulation of droplet fibrotaxis on a planar fiber-reinforced substrate.</div>
+    <div class="caption">Three-dimensional simulation of droplet fibrotaxis.</div>
   </div>
 </div>
 
@@ -57,12 +81,25 @@ We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet tr
 
 ## Bubble/droplet transport in confined soft geometries
 
+Using direct numerical simulations of `two-fluid fluid-structure interactions` in capillary tubes, we have explored strategies to effectively control (a) the onset of `interfacial instabilities` and `droplet/bubble pinch-off`, and (b) the transport of droplets/bubbles through `constricted spaces`. Our high-resolution simulations show that (a) tube’s deformability can either suppress or delay the onset of `interfacial instabilities` and `pinch-off` relative to rigid tubes, and (b) `tube’s actuation` is an effective way to transport droplets/bubbles through constricted spaces. Our findings are important in many applications, such as `enhanced oil recovery, inkjet printing, microfluidics, drug delivery systems, plant biological systems, and manufacturing`.
+
+<div class="row justify-content-sm-center align-items-center mt-4 video-pair">
+  <div class="col-md-4 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/video/bpinchoff.gif" class="img-fluid schematic" avoid_scaling=true alt="Bubble confined inside a deformable capillary tube" %}
+    <div class="caption">Schematic of a bubble confined in a deformable capillary tube.</div>
+  </div>
+  <div class="col-md-8 mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/forcing_actuation.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+    <div class="caption">Simulation of bubble transport through a constricted deformable tube driven by tube actuation.</div>
+  </div>
+</div>
+
 ---
 
 ## References
 
-<div class="publications">
-  {% bibliography --query @*[key=bhopalam2026droplet] %}
-  {% bibliography --query @*[key=bhopalam2026simulating] %}
-  {% bibliography --query @*[key=bhopalam2024fibrotaxis] %}
+<div class="publications reference-list">
+  {% bibliography --query @*[key=bhopalam2026droplet] --template bib_reference %}
+  {% bibliography --query @*[key=bhopalam2026simulating] --template bib_reference %}
+  {% bibliography --query @*[key=bhopalam2024fibrotaxis] --template bib_reference %}
 </div>

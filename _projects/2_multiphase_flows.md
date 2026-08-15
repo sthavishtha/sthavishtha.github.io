@@ -7,12 +7,29 @@ importance: 2
 category: research
 related_publications: false
 _styles: >
-  .publications ol.bibliography li .col-sm-3 {
-    display: none;
+  .reference-list {
+    counter-reset: refnum;
   }
-  .publications ol.bibliography li .col-sm-9 {
-    flex: 0 0 100%;
-    max-width: 100%;
+  .reference-list ol.bibliography {
+    list-style: none;
+    padding-left: 2rem;
+    margin: 0;
+  }
+  .reference-list ol.bibliography li {
+    position: relative;
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+  }
+  .reference-list ol.bibliography li::before {
+    counter-increment: refnum;
+    content: counter(refnum) ".";
+    position: absolute;
+    left: -2rem;
+    width: 1.5rem;
+    text-align: right;
+  }
+  .reference-list .reference {
+    font-size: 0.95rem;
   }
   .video-pair video {
     width: 100%;
@@ -45,11 +62,11 @@ At the pore scale, sea ice is a `multiphase porous material` composed of interco
 <div class="row justify-content-sm-center align-items-end mt-4 video-pair">
   <div class="col-md-6 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/seaicemicrostructure.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Microstructural evolution of sea ice at the ice-ocean boundary during top-down freezing. Video credit: Junning Liu.</div>
+    <div class="caption">Microstructural evolution of sea ice at the ice-ocean boundary during top-down freezing. Video shows the spatiotemporal evolution of brine salinity. Video credit: Junning Liu.</div>
   </div>
   <div class="col-md-6 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/seaiceconvection.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Buoyancy-driven convective transport of brine during interfacial melting of sea ice. Video credit: Junning Liu. </div>
+    <div class="caption">Buoyancy-driven convective transport of brine during interfacial melting of sea ice. Video shows the spatiotemporal evolution of brine salinity. Video credit: Junning Liu. </div>
   </div>
 </div>
 
@@ -57,12 +74,12 @@ At the pore scale, sea ice is a `multiphase porous material` composed of interco
 
 ## Dry snow metamorphism
 
-Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extraterrestrial regolith`. Under dry conditions, spatiotemporal variations in temperature and vapor pressure cause the redistribution of ice within the pore spaces of these mixtures, leading to `ice migration, coarsening, and aggregation`. These processes strongly influence the long-term stability of subsurface ice. Here, we aim to develop a mechanistic understanding of these `pore-scale` processes using `phase-field` simulations.
+Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extraterrestrial regolith`. Under dry conditions, spatiotemporal variations in temperature and vapor pressure cause the redistribution of ice within the pore spaces of these mixtures, leading to three important processes -- `ice migration, coarsening, and aggregation`. These processes strongly influence the long-term stability of subsurface ice. Here, we aim to develop a mechanistic understanding of these `pore-scale` processes using `phase-field` simulations.
 
 <div class="row justify-content-sm-center mt-4 video-pair">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/dsm.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Pore-scale simulation of vapor-driven ice migration and coarsening in a tortuous pore space. Video credit: Jackson Baglino.</div>
+    <div class="caption">Pore-scale simulation of vapor-driven ice migration and coarsening in a tortuous pore space. Video shows the spatiotemporal evolution of vapor density. Video credit: Jackson Baglino.</div>
   </div>
 </div>
 
@@ -70,7 +87,7 @@ Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extrat
 
 ## References
 
-<div class="publications">
-  {% bibliography --query @*[key=bhopalam2026tbd1] %}
-  {% bibliography --query @*[key=bhopalam2026tbd3] %}
+<div class="publications reference-list">
+  {% bibliography --query @*[key=bhopalam2026tbd1] --template bib_reference %}
+  {% bibliography --query @*[key=bhopalam2026tbd3] --template bib_reference %}
 </div>
