@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mechanics of multiphase flows
-# description: pore-scale physics of sea ice and dry snow, resolved with phase-field simulations
+description: Applications: cryo-hydrological porous media
 img: assets/img/publication_preview/pinchoff.png
 importance: 2
 category: research
