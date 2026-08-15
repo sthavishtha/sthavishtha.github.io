@@ -6,6 +6,13 @@ img: assets/img/publication_preview/fibrotaxis.png
 importance: 3
 category: research
 _styles: >
+  .publications ol.bibliography li .col-sm-3 {
+    display: none;
+  }
+  .publications ol.bibliography li .col-sm-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .video-pair video,
   .video-pair img {
     width: 100%;
@@ -49,3 +56,13 @@ We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet tr
 ---
 
 ## Bubble/droplet transport in confined soft geometries
+
+---
+
+## References
+
+<div class="publications">
+  {% bibliography --query @*[key=bhopalam2024fibrotaxis] %}
+  {% bibliography --query @*[key=bhopalam2026simulating] %}
+  {% bibliography --query @*[key=bhopalam2026droplet] %}
+</div>

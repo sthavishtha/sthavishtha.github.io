@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mechanics of multiphase flows
-description: Applications: cryo-hydrological porous media
+description: Applications in cryo-hydrological porous media
 img: assets/img/publication_preview/pinchoff.png
 importance: 2
 category: research
