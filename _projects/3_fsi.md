@@ -51,7 +51,7 @@ _styles: >
     .video-pair img.schematic {
       width: auto;
       max-width: 100%;
-      max-height: 260px;
+      max-height: 200px;
       display: block;
       margin: 0 auto;
     }
