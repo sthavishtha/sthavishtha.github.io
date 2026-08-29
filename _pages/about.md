@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: >
   PhD Candidate &middot; <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> &middot; <a href='https://www.purdue.edu'>Purdue University</a>
@@ -17,7 +17,7 @@ profile:
     <p>(2017&ndash;2019) Research, ETH Zurich</p>
     <p>(2013&ndash;2017) B.Tech., NIT Karnataka</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
