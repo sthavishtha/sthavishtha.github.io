@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mechanics of fluid-structure interaction
+title: Fluid-structure interaction
 description: Elasto-capillarity between immiscible fluids and nonlinear elastic solids
 img: assets/img/publication_preview/fibrotaxis.png
 importance: 3

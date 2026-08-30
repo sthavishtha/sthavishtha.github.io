@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: About
 permalink: /
 subtitle: >
   PhD Candidate &middot; <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> &middot; <a href='https://www.purdue.edu'>Purdue University</a>

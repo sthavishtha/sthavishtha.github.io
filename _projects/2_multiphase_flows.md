@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mechanics of multiphase flows
+title: Multiphase flows
 description: Applications in cryo-hydrological porous media
 img: assets/img/publication_preview/pinchoff.png
 importance: 2

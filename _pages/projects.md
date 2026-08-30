@@ -2,9 +2,9 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Research themes I work on.
+description: Broad classification of my research themes
 nav: true
-nav_order: 3
+nav_order: 1
 horizontal: false
 ---
 
