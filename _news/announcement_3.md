@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Sthavishtha's PhD research was featured on the [ACCESS support webpage](https://support.access-ci.org/tools/researcher-stories), highlighting the use of ACCESS computational tools in advancing scientific research.
+Sthavishtha's PhD research has been featured on the [ACCESS support webpage](https://support.access-ci.org/tools/researcher-stories)

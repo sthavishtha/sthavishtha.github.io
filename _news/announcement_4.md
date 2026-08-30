@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Sthavishtha presented at the [USNC/TAM 2026 Conference](https://www.usnctam26.org/program) held at Pasadena in the session *Multiphase and Particle-Laden Flows*, and also contributed to talks in the session *Environmental Mechanics and Soft Earth Geophysics*.
+Sthavishtha presented at the [USNC/TAM 2026 Conference](https://www.usnctam26.org/program) in the session *Multiphase and Particle-Laden Flows*, and also contributed to two other talks in the session *Environmental Mechanics and Soft Earth Geophysics*.

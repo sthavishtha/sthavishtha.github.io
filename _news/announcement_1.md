@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our grant proposal *Simulation-aided design of next-generation freeze-driven desalination milli-reactors* has been selected for funding by the Resnick Sustainability Institute, Caltech (PI: Prof. Xiaojing Fu; Co-PI: Sthavishtha).
+Our grant proposal *Simulation-aided design of next-generation freeze-driven desalination milli-reactors* has been selected for funding by the [Resnick Sustainability Institute](https://resnick.caltech.edu/), Caltech (PI: Prof. Xiaojing Fu; Co-PI: Sthavishtha).
