@@ -68,7 +68,7 @@ _styles: >
 ---
 
 <div class="theme-lead" markdown="1">
-I aim to use `computational multiphase flow` models to seek a fundamental understanding of the interfacial phenomena driven by coupled fluid flow, phase change, and heat transfer in `cryo-hydrology` and `environmental sustainability`.
+I aim to use `computational multiphase flow` models to seek a fundamental understanding of the interfacial phenomena driven by coupled fluid flow, phase change, and heat transfer in `cryo-hydrological` and `environmentally sustainable` applications.
 </div>
 
 ## Sea ice physics

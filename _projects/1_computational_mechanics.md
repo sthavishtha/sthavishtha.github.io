@@ -1,12 +1,31 @@
 ---
 layout: page
 title: Computational mechanics
-description: numerical methods for interface problems — isogeometric analysis, lattice Boltzmann, and high-fidelity solvers
 img: assets/img/publication_preview/iga.jpeg
 importance: 1
 category: research
+_styles: >
+  .theme-lead {
+    margin: 0 0 2.25rem;
+    padding: 1.15rem 1.5rem;
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 0 8px 8px 0;
+    background-color: var(--global-code-bg-color);
+    background-color: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+  .theme-lead p:last-child {
+    margin-bottom: 0;
+  }
 ---
 
-My work in computational mechanics centers on building accurate and robust numerical methods for problems governed by moving interfaces and strongly coupled physics.
+<div class="theme-lead" markdown="1">
+I aim to develop predictive models and computational methods for interfacial mechanics, focusing on `moving contact lines`, `fluid-structure interactions`, `multiphase flows`, and `porous media`.
+</div>
 
-This includes isogeometric analysis for higher-order partial differential equations, phase-field formulations that resolve interfaces without explicit tracking, and lattice Boltzmann methods for conjugate heat transfer and rarefied gas flows. A common thread is the design of discretizations that remain stable and physically consistent under sharp gradients, large deformations, and strong coupling between fields.
+## Fluid-structure interaction
+
+## Multiphase flows
+
+## Porous media
