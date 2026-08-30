@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-research",
+          title: "Research",
           description: "Research themes I work on.",
           section: "Navigation",
           handler: () => {
@@ -391,14 +391,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-featured-article-in-physics-of-fluids-on-droplets-that-cluster-and-evaporate-in-reactive-turbulence",
-          title: 'Featured Article in Physics of Fluids: On droplets that cluster and evaporate in...',
+            },},{id: "news-sthavishtha-presented-at-the-usnc-tam-2026-conference-held-at-pasadena-in-the-session-multiphase-and-particle-laden-flows-and-also-contributed-to-talks-in-the-session-environmental-mechanics-and-soft-earth-geophysics",
+          title: 'Sthavishtha presented at the USNC/TAM 2026 Conference held at Pasadena in the session...',
           description: "",
-          section: "News",},{id: "news-paper-published-in-computer-methods-in-applied-mechanics-and-engineering-elasto-capillary-fluid-structure-interaction-with-compound-droplets",
-          title: 'Paper published in Computer Methods in Applied Mechanics and Engineering: Elasto-capillary fluid-structure interaction...',
+          section: "News",},{id: "news-sthavishtha-s-phd-research-was-featured-on-the-access-support-webpage-highlighting-the-use-of-access-computational-tools-in-advancing-scientific-research",
+          title: 'Sthavishtha’s PhD research was featured on the ACCESS support webpage, highlighting the use...',
           description: "",
-          section: "News",},{id: "news-new-preprint-fibrotaxis-gradient-free-spontaneous-and-controllable-droplet-motion-on-soft-solids-is-now-on-arxiv",
-          title: 'New preprint: Fibrotaxis — gradient-free, spontaneous and controllable droplet motion on soft solids...',
+          section: "News",},{id: "news-our-access-allocation-phase-transition-of-water-in-unsaturated-porous-media-has-been-renewed-for-an-additional-year-from-2026-2027-pi-prof-xiaojing-fu-co-pi-sthavishtha",
+          title: 'Our ACCESS allocation Phase Transition of Water in Unsaturated Porous Media has been...',
+          description: "",
+          section: "News",},{id: "news-our-grant-proposal-simulation-aided-design-of-next-generation-freeze-driven-desalination-milli-reactors-has-been-selected-for-funding-by-the-resnick-sustainability-institute-caltech-pi-prof-xiaojing-fu-co-pi-sthavishtha",
+          title: 'Our grant proposal Simulation-aided design of next-generation freeze-driven desalination milli-reactors has been selected...',
           description: "",
           section: "News",},{id: "projects-computational-mechanics",
           title: 'Computational mechanics',
