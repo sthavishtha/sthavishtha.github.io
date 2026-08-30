@@ -410,7 +410,7 @@ ninja.data = [{
               window.location.href = "/projects/1_computational_mechanics/";
             },},{id: "projects-multiphase-flows",
           title: 'Multiphase flows',
-          description: "Applications in cryo-hydrological porous media",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_multiphase_flows/";
             },},{id: "projects-fluid-structure-interaction",
