@@ -1,12 +1,24 @@
 ---
 layout: page
 title: Multiphase flows
-description: Applications in cryo-hydrological porous media
 img: assets/img/publication_preview/pinchoff.png
 importance: 2
 category: research
 related_publications: false
 _styles: >
+  .theme-lead {
+    margin: 0 0 2.25rem;
+    padding: 1.15rem 1.5rem;
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 0 8px 8px 0;
+    background-color: var(--global-code-bg-color);
+    background-color: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+  .theme-lead p:last-child {
+    margin-bottom: 0;
+  }
   .reference-list {
     counter-reset: refnum;
   }
@@ -54,6 +66,10 @@ _styles: >
     font-size: 0.85rem;
   }
 ---
+
+<div class="theme-lead" markdown="1">
+I aim to use `computational multiphase flow` models to seek a fundamental understanding of the interfacial phenomena driven by coupled fluid flow, phase change, and heat transfer in `cryo-hydrology` and `environmental sustainability`.
+</div>
 
 ## Sea ice physics
 
