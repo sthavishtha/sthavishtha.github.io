@@ -68,7 +68,7 @@ _styles: >
 ---
 
 <div class="theme-lead" markdown="1">
-I aim to use `computational multiphase flow` models to seek a fundamental understanding of the interfacial phenomena driven by coupled fluid flow, phase change, and heat transfer in `cryo-hydrological` and `environmentally sustainable` applications.
+I aim to use `computational multiphase flow` models to seek a fundamental understanding of the interfacial phenomena driven by coupled fluid flow, phase change, and heat transfer in `cryo-hydrological` and `environmentally sustainable` applications. My interest in `cryo-hydrological` systems is motivated by the rapid transformation of cryospheric environments, such as `snowpacks`, `glaciers`, and `permafrost`, under changing climatic conditions.
 </div>
 
 ## Sea ice physics
