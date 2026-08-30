@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-12 09:00:00-0400
+date: 2026-08-01 09:00:00-0700
 inline: true
 related_posts: false
 ---
 
-New preprint: *Fibrotaxis — gradient-free, spontaneous and controllable droplet motion on soft solids* is now on [arXiv](https://doi.org/10.48550/arXiv.2310.08113).
+Our grant proposal *Simulation-aided design of next-generation freeze-driven desalination milli-reactors* has been selected for funding by the Resnick Sustainability Institute, Caltech (PI: Prof. Xiaojing Fu; Co-PI: Sthavishtha).
