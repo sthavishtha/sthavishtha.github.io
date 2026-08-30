@@ -3,25 +3,25 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-home",
-    title: "Home",
+    id: "nav-about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-research",
+          title: "Research",
+          description: "Broad classification of my research themes",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "Ordered by most recent",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-research",
-          title: "Research",
-          description: "Research themes I work on.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -391,13 +391,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-sthavishtha-presented-at-the-usnc-tam-2026-conference-held-at-pasadena-in-the-session-multiphase-and-particle-laden-flows-and-also-contributed-to-talks-in-the-session-environmental-mechanics-and-soft-earth-geophysics",
-          title: 'Sthavishtha presented at the USNC/TAM 2026 Conference held at Pasadena in the session...',
+            },},{id: "news-sthavishtha-presented-at-the-usnc-tam-2026-conference-in-the-session-multiphase-and-particle-laden-flows-and-also-contributed-to-two-other-talks-in-the-session-environmental-mechanics-and-soft-earth-geophysics",
+          title: 'Sthavishtha presented at the USNC/TAM 2026 Conference in the session Multiphase and Particle-Laden...',
           description: "",
-          section: "News",},{id: "news-sthavishtha-s-phd-research-was-featured-on-the-access-support-webpage-highlighting-the-use-of-access-computational-tools-in-advancing-scientific-research",
-          title: 'Sthavishtha’s PhD research was featured on the ACCESS support webpage, highlighting the use...',
+          section: "News",},{id: "news-sthavishtha-s-phd-research-has-been-featured-on-the-access-support-webpage",
+          title: 'Sthavishtha’s PhD research has been featured on the ACCESS support webpage',
           description: "",
-          section: "News",},{id: "news-our-access-allocation-phase-transition-of-water-in-unsaturated-porous-media-has-been-renewed-for-an-additional-year-from-2026-2027-pi-prof-xiaojing-fu-co-pi-sthavishtha",
+          section: "News",},{id: "news-our-access-allocation-phase-transition-of-water-in-unsaturated-porous-media-has-been-renewed-from-2026-2027-pi-prof-xiaojing-fu-co-pi-sthavishtha",
           title: 'Our ACCESS allocation Phase Transition of Water in Unsaturated Porous Media has been...',
           description: "",
           section: "News",},{id: "news-our-grant-proposal-simulation-aided-design-of-next-generation-freeze-driven-desalination-milli-reactors-has-been-selected-for-funding-by-the-resnick-sustainability-institute-caltech-pi-prof-xiaojing-fu-co-pi-sthavishtha",
@@ -408,13 +408,13 @@ ninja.data = [{
           description: "numerical methods for interface problems — isogeometric analysis, lattice Boltzmann, and high-fidelity solvers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_computational_mechanics/";
-            },},{id: "projects-mechanics-of-multiphase-flows",
-          title: 'Mechanics of multiphase flows',
+            },},{id: "projects-multiphase-flows",
+          title: 'Multiphase flows',
           description: "Applications in cryo-hydrological porous media",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_multiphase_flows/";
-            },},{id: "projects-mechanics-of-fluid-structure-interaction",
-          title: 'Mechanics of fluid-structure interaction',
+            },},{id: "projects-fluid-structure-interaction",
+          title: 'Fluid-structure interaction',
           description: "Elasto-capillarity between immiscible fluids and nonlinear elastic solids",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_fsi/";
