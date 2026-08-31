@@ -68,7 +68,7 @@ _styles: >
 ---
 
 <div class="theme-lead" markdown="1">
-I aim to use `computational multiphase flow` models to seek a fundamental understanding of the interfacial phenomena driven by coupled fluid flow, phase change, and heat transfer in `cryo-hydrological` and `environmentally sustainable` applications. My interest in `cryo-hydrological` systems is motivated by the rapid transformation of cryospheric environments, such as `snowpacks`, `glaciers`, and `permafrost`, under changing climatic conditions.
+I have used `computational multiphase flow` models to develop a fundamental understanding of the interfacial phenomena arising from coupled fluid flow, phase change, chemical reactions and heat transfer in the following applications: `cryo-hydrology`, `environmental sustainability` and `combustion and propulsion` systems. My interest in `cryo-hydrological` systems is motivated by the rapid transformation of cryospheric environments, such as `snowpacks`, `glaciers`, and `permafrost`, under changing climatic conditions. My interest in `environmentally sustainable` applications is driven by the need to address growing global water scarcity. My interest in `combustion and propulsion systems` is motivated by the need to improve energy efficiency, and emissions performance in next-generation energy and transportation technologies.
 </div>
 
 ## Sea ice physics
@@ -110,4 +110,5 @@ Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extrat
 <div class="publications reference-list">
   {% bibliography --query @*[key=bhopalam2026tbd1] --template bib_reference %}
   {% bibliography --query @*[key=bhopalam2026tbd3] --template bib_reference %}
+  {% bibliography --query @*[key=weiss2021droplets] --template bib_reference %}
 </div>

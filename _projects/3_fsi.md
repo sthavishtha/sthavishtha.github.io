@@ -75,7 +75,7 @@ _styles: >
 ---
 
 <div class="theme-lead" markdown="1">
-I aim to use `computational multiphase fluid-structure interaction` models to uncover new fundamental mechanisms governing the interplay between `capillarity`, fluid flow and solid deformation in `micro- and nano-scale systems` involving many `immiscible fluids`, high flow rates, and `nonlinear soft materials`. At these length-scales, the deformation of `soft materials` is driven primarily by `capillary forces`. My interest in this field is motivated by the limited availability of predictive computational frameworks for accurately modeling and understanding such interfacial phenomena.
+I have used `computational multiphase fluid-structure interaction` models to uncover new fundamental mechanisms involving `capillarity`, fluid flow and solid deformation of `soft materials` in `micro- and nano-scale systems`. At these length-scales, the deformation of `soft materials` is driven primarily by `capillary forces`. My interest in this field is motivated by the limited availability of predictive computational frameworks for accurately modeling and understanding such interfacial phenomena.
 </div>
 
 ## Bubble/droplet transport on soft solids
