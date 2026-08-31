@@ -394,7 +394,7 @@ ninja.data = [{
             },},{id: "news-sthavishtha-presented-at-the-usnc-tam-2026-conference-in-the-session-multiphase-and-particle-laden-flows-and-also-contributed-to-two-other-talks-in-the-session-environmental-mechanics-and-soft-earth-geophysics",
           title: 'Sthavishtha presented at the USNC/TAM 2026 Conference in the session Multiphase and Particle-Laden...',
           description: "",
-          section: "News",},{id: "news-sthavishtha-s-phd-research-has-been-featured-on-the-access-support-webpage-this-page-highlights-how-scientists-use-access-computational-resources-to-advance-scientific-research",
+          section: "News",},{id: "news-sthavishtha-s-phd-research-has-been-featured-on-the-access-support-webpage-this-page-highlights-how-scientists-have-used-access-computational-resources-to-advance-scientific-research",
           title: 'Sthavishtha’s PhD research has been featured on the ACCESS support webpage — this...',
           description: "",
           section: "News",},{id: "news-our-access-allocation-phase-transition-of-water-in-unsaturated-porous-media-has-been-renewed-for-an-additional-year-from-2026-2027-pi-prof-xiaojing-fu-co-pi-sthavishtha",
