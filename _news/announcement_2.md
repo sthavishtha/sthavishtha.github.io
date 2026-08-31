@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our ACCESS allocation [Phase Transition of Water in Unsaturated Porous Media](https://www.xras.org/public/requests/259994-ACCESS-EES250122) has been renewed from 2026&ndash;2027 (PI: Prof. Xiaojing Fu; Co-PI: Sthavishtha).
+Our ACCESS allocation [Phase Transition of Water in Unsaturated Porous Media](https://www.xras.org/public/requests/259994-ACCESS-EES250122) has been renewed for an additional year from 2026&ndash;2027 (PI: Prof. Xiaojing Fu; Co-PI: Sthavishtha).
