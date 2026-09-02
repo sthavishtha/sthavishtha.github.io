@@ -277,7 +277,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Bhopalam]
-  first_name: [Sthavishtha]
+  first_name: [Sthavishtha, Sthavishtha R.]
 
   style: apa
   locale: en

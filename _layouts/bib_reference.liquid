@@ -24,7 +24,7 @@
   {%- if author_count > 0 -%}
     {%- for author in entry.author_array -%}
       {%- if forloop.last and author_count > 1 %}&amp; {% endif -%}
-      {{- author.last -}},
+      {{- author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -}},
       {%- assign given_names = author.first | split: ' ' -%}
       {%- for given in given_names %} {{ given | slice: 0 }}.{% endfor -%}
       {%- unless forloop.last %}, {% endunless -%}
