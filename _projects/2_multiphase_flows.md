@@ -60,7 +60,7 @@ I have used `computational multiphase flow` models to develop a fundamental unde
 
 ## Sea ice physics
 
-At the pore scale, sea ice is a `multiphase porous material` composed of interconnected brine channels that evolve in time and space. Existing sea-ice growth models operating at geophysical or Darcy scales treat sea ice as a homogenized medium and neglect its evolving microstructure. However, a pore-scale description of sea ice is essential because its evolution is governed by a two-way coupling between microstructure and brine transport -- changes in brine-channel morphology alter local transport properties, while `fluid flow and salt redistribution` further modify `melting, freezing, and brine-channel connectivity`. Here, we aim to fundamentally understand the mechanisms governing sea-ice microstructural evolution. Our `pore-scale` simulations will help formulate improved melt-rate and brine-transport parameterizations for large-scale ocean models.
+At the `pore-scale`, sea ice is a `multiphase porous material` composed of interconnected brine channels that evolve in time and space. The spatiotemporal evolution of the sea ice microstructure is governed by a two-way coupling with brine transport - changes in brine-channel morphology alter local transport properties, while `fluid flow and salt redistribution` modify `melting`, `freezing`, and `brine-channel connectivity`. Despite the importance of these `pore-scale` processes, existing sea-ice growth models operate at geophysical or Darcy scales, and neglect the evolving microstructure of sea ice. Here, we aim to fundamentally understand the mechanisms governing sea-ice microstructural evolution through `pore-scale` simulations. Our simulations will help formulate improved melt-rate and brine-transport parameterizations for large-scale ocean models.
 
 <div class="row justify-content-sm-center align-items-end mt-4 video-pair">
   <div class="col-md-6 mt-3 mt-md-0">
@@ -77,7 +77,7 @@ At the pore scale, sea ice is a `multiphase porous material` composed of interco
 
 ## Dry snow metamorphism
 
-Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extraterrestrial regolith`. Under dry conditions, spatiotemporal variations in temperature and vapor pressure cause the redistribution of ice within the pore spaces of these mixtures, leading to three important processes -- `ice migration, coarsening, and aggregation`. These processes strongly influence the long-term stability of subsurface ice. Here, we aim to develop a mechanistic understanding of these `pore-scale` processes using `phase-field` simulations.
+Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extraterrestrial regolith`. Under dry conditions, spatiotemporal variations in temperature and vapor pressure cause the redistribution of ice within the pore spaces through three key `pore-scale` processes - `ice migration`, `coarsening`, and `aggregation`. These processes strongly influence the long-term stability of subsurface ice, yet their underlying mechanisms remain poorly understood. Here, we aim to develop a mechanistic understanding of these `pore-scale` processes using `phase-field` simulations of `ice sublimation` and `vapor deposition`. 
 
 <div class="row justify-content-sm-center mt-4 video-pair">
   <div class="col-sm-10 mt-3 mt-md-0">
@@ -89,6 +89,15 @@ Ice-sediment mixtures are commonly found in `terrestrial permafrost` and `extrat
 ---
 
 ## Droplet-laden turbulent reacting flows
+
+Turbulent reacting sprays are ubiquitous in gas turbines and internal combustion engines. The combustion performance of these systems is governed by complex multiphysics interactions involving `droplet clustering`, `droplet evaporation` and `turbulent gas-phase combustion`. Each of these multiphysics processes have been well understood independently, but their coupled interactions remain poorly understood. A fundamental understanding of these coupled multiphysics interactions is, however, important for designing combustion systems with enhanced energy efficiency and reduced pollutant emissions. Here, we perform `point-droplet` three-dimensional `direct numerical simulations` of `droplet-laden reactive turbulence` to better understand the mechanisms governing these coupled multiphysics interactions and to classify the local combustion regimes under different flow conditions. 
+
+<div class="row justify-content-sm-center mt-4 video-pair">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/turb-comb.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+    <div class="caption">Two-dimensional slices of decane vapor mass fraction (left) and gas-phase temperature (right). Droplets are shown as black circles, and magnified for visualization purposes.</div>
+  </div>
+</div>
 
 ---
 
