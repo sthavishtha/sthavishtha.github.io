@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Ordered by most recent",
+          description: "* indicates corresponding author(s)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -394,7 +394,7 @@ ninja.data = [{
             },},{id: "news-sthavishtha-presented-at-the-usnc-tam-2026-conference-in-the-session-multiphase-and-particle-laden-flows-and-also-contributed-to-two-other-talks-in-the-session-environmental-mechanics-and-soft-earth-geophysics",
           title: 'Sthavishtha presented at the USNC/TAM 2026 Conference in the session Multiphase and Particle-Laden...',
           description: "",
-          section: "News",},{id: "news-our-abstract-high-fidelity-simulation-of-elasto-capillary-systems-has-been-accepted-for-an-invited-talk-at-the-ses-annual-meeting-2026-with-prof-hector-gomez-as-the-speaker",
+          section: "News",},{id: "news-our-abstract-high-fidelity-simulation-of-elasto-capillary-systems-has-been-accepted-for-an-invited-talk-at-the-ses-annual-meeting-2026-with-prof-hector-gomez-as-the-presenter",
           title: 'Our abstract High-fidelity simulation of elasto-capillary systems has been accepted for an invited...',
           description: "",
           section: "News",},{id: "news-sthavishtha-s-phd-research-has-been-featured-on-the-access-support-webpage-this-page-highlights-how-scientists-have-used-access-computational-resources-to-advance-scientific-research",
