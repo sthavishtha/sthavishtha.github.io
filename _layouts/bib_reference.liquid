@@ -44,9 +44,4 @@
     In <em>{{ entry.booktitle }}</em>
     {%- if entry.pages %} (pp. {{ entry.pages | replace: '--', '–' }}){% endif -%}.
   {%- endif -%}
-  {%- if entry.doi %}
-    <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">https://doi.org/{{ entry.doi }}</a>
-  {%- elsif entry.arxiv %}
-    <a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv:{{ entry.arxiv }}</a>
-  {%- endif -%}
 </span>
