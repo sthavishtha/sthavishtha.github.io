@@ -11,12 +11,13 @@ topics:
   - Fluid-structure interaction
   - Porous media
   - Isogeometric analysis
+  - Lattice Boltzmann methods
 ---
 
 <!-- _pages/publications.md -->
 
 <div class="theme-lead" markdown="1">
-Research areas I have worked on: `multiphase flows`, `fluid-structure interaction`, `porous media` and `isogeometric analysis`. Use the filters below to browse the publications by area.
+Research areas: `multiphase flows`, `fluid-structure interaction`, `porous media`, `isogeometric analysis` and `lattice Boltzmann methods`.
 </div>
 
 <div class="pub-filter" id="pub-filter" role="group" aria-label="Filter publications by research area">

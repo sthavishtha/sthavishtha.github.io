@@ -84,12 +84,12 @@ We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet tr
 
 ## Bubble/droplet transport in confined soft geometries
 
-Using direct numerical simulations of `two-fluid fluid-structure interactions` in capillary tubes, we have explored strategies to effectively control (a) the onset of `interfacial instabilities` and `droplet/bubble pinch-off`, and (b) the transport of droplets/bubbles through `constricted spaces`. Our high-resolution simulations show that (a) tube’s deformability can either suppress or delay the onset of `interfacial instabilities` and `pinch-off` relative to rigid tubes, and (b) `tube’s actuation` is an effective way to transport droplets/bubbles through constricted spaces. Our findings are important in many applications, such as `enhanced oil recovery, inkjet printing, microfluidics, drug delivery systems, plant biological systems, and manufacturing`.
+Using direct numerical simulations of `two-fluid fluid-structure interactions` in capillary tubes, we have explored strategies to effectively control (a) the onset of `interfacial instabilities` and `droplet/bubble pinch-off`, and (b) the transport of droplets/bubbles through `constricted spaces`. Our high-resolution simulations show that (a) tube’s deformability can either suppress or delay the onset of `interfacial instabilities` and `pinch-off` relative to rigid tubes, and (b) `tube’s actuation` is an effective way to transport droplets/bubbles through constricted spaces. Our findings are important in many applications, such as `enhanced oil recovery`, `inkjet printing`, `microfluidics`, and `drug delivery systems`.
 
 <div class="row justify-content-sm-center align-items-center mt-4 video-pair">
   <div class="col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/video/bpinchoff.gif" class="img-fluid schematic" avoid_scaling=true alt="Bubble confined inside a deformable capillary tube" %}
-    <div class="caption">Schematic of a bubble confined in a deformable capillary tube.</div>
+    <div class="caption">Suppression of bubble pinch-off in a deformable capillary tube.</div>
   </div>
   <div class="col-md-8 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/forcing_actuation.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
