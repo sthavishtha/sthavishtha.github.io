@@ -89,11 +89,12 @@ Using direct numerical simulations of `two-fluid fluid-structure interactions` i
 <div class="row justify-content-sm-center align-items-center mt-4 video-pair">
   <div class="col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/video/bpinchoff.gif" class="img-fluid schematic" avoid_scaling=true alt="Bubble confined inside a deformable capillary tube" %}
-    <div class="caption">Suppression of bubble pinch-off in a deformable capillary tube.</div>
+    <div class="caption">Simulation of an air bubble (shown in white) pinched off in a deformable capillary tube (shown in brown) filled with glycerol. </div>
   </div>
   <div class="col-md-8 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/forcing_actuation.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Simulation of bubble transport through a constricted deformable tube driven by tube actuation.</div>
+    <div class="caption">Simulation of an oil droplet (shown in white) transported through an actuated, constricted deformable capillary tube (shown in brown) filled with water.
+    </div>
   </div>
 </div>
 

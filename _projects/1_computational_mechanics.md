@@ -4,6 +4,31 @@ title: Computational mechanics
 img: assets/img/publication_preview/iga.jpeg
 importance: 1
 category: research
+_styles: >
+  .reference-list {
+    counter-reset: refnum;
+  }
+  .reference-list ol.bibliography {
+    list-style: none;
+    padding-left: 2rem;
+    margin: 0;
+  }
+  .reference-list ol.bibliography li {
+    position: relative;
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+  }
+  .reference-list ol.bibliography li::before {
+    counter-increment: refnum;
+    content: counter(refnum) ".";
+    position: absolute;
+    left: -2rem;
+    width: 1.5rem;
+    text-align: right;
+  }
+  .reference-list .reference {
+    font-size: 0.95rem;
+  }
 ---
 
 <div class="theme-lead" markdown="1">
@@ -28,10 +53,18 @@ I have developed `computational multiphase flow` models to study two different c
 
 ## Porous media
 
-Several continuum models have been developed to study the multiphysics behavior of `immiscible fluid flow` in `unsaturated poroelastic` media. These models typically neglect `capillary forces` and are primarily formulated for large length-scale problems. At small length-scales, however, `capillary forces` become important as they deform the porous skeleton and strongly influence the coupled fluid-solid response. To better understand the dynamics of two `immiscible fluids` in `unsaturated poroelastic` media at small length-scales, we have derived and developed phase-field models from first principles of continuum mechanics. Using these models, we have elucidated the mechanisms by which `capillary forces` influence the mechanical response of `unsaturated poroelastic` media. The key findings from our models can be used to better understand fluid transport in biological tissues and the deformation of soft porous materials.  
+Several continuum models have been developed to study the multiphysics behavior of `immiscible fluid flow` in `unsaturated poroelastic` media. These models typically neglect `capillary forces` and are primarily formulated for large length-scale problems. At small length-scales, however, `capillary forces` become important as they deform the porous skeleton and strongly influence the coupled fluid-solid response. To better understand the dynamics of two `immiscible fluids` in `unsaturated poroelastic` media at small length-scales, we have derived and developed `phase-field` models from first principles of continuum mechanics. Using these models, we have elucidated the mechanisms by which `capillary forces` influence the mechanical response of `unsaturated poroelastic` media. The key findings from our models can be used to better understand fluid transport in biological tissues and the deformation of soft porous materials.  
 
 <div class="row justify-content-sm-center mt-4 video-pair">
   <div class="col-sm-10 mt-3 mt-md-0">
     <div class="caption">Simulation video will be made available shortly. </div>
   </div>
+</div>
+
+## References
+
+<div class="publications reference-list">
+  {% bibliography --query @*[key=bhopalam2022elastocapillary] --template bib_reference %}
+  {% bibliography --query @*[key=bhopalam2026simulating] --template bib_reference %}
+  {% bibliography --query @*[key=bhopalam2026tbd2] --template bib_reference %}
 </div>
