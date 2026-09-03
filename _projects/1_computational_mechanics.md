@@ -37,7 +37,7 @@ I have developed predictive models and computational methods for `moving contact
 
 ## Fluid-structure interaction
 
-
+Traditional computational methods for solving `fluid-structure interaction` (FSI) problems involving `multiphase fluids` have extensively focused on large-scale systems, where `capillary forces` at fluid-fluid interfaces have a negligible impact on solid deformation. However, at `micro- and nano-scales`, `capillary forces` acting at the fluid-fluid interfaces can signficantly `deform soft solids` and fundamentally alter fluid transport. To capture the multiphysics effects at such small length-scales, we have developed computational models and methods for `FSI` involving `multiphase fluids` in `confined soft geometries` and on `soft solids`. We use a `phase-field` description of fluids coupled with `nonlinear solid models` that can handle large deformations. Our models handle more than `two immiscible fluids`, `high flow rates`, and `advanced soft materials`, representing multiphysics regimes that have received less attention in the literature. 
 
 <div class="row justify-content-sm-center align-items-end mt-4 video-pair">
   <div class="col-md-6 mt-3 mt-md-0">
@@ -46,7 +46,7 @@ I have developed predictive models and computational methods for `moving contact
   <div class="col-md-6 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/collardroplet_2.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
   </div>
-  <div class="caption">Simulation of capillary origami of Janus compound droplet (left) and collar compound droplet (right). Blue and red colors denote water and oil, respectively.</div>
+  <div class="caption">Simulation of capillary origami of Janus compound droplet (left) and collar compound droplet (right). Blue, red and gray colors denote water, oil and the deformable solid, respectively.</div>
 </div>
 
 ## Multiphase flows
