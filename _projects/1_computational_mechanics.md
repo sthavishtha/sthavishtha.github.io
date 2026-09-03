@@ -37,6 +37,18 @@ I have developed predictive models and computational methods for `moving contact
 
 ## Fluid-structure interaction
 
+
+
+<div class="row justify-content-sm-center align-items-end mt-4 video-pair">
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/janusdroplet_2.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+  </div>
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/collardroplet_2.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
+  </div>
+  <div class="caption">Simulation of capillary origami of Janus compound droplet (left) and collar compound droplet (right). Blue and red colors denote water and oil, respectively.</div>
+</div>
+
 ## Multiphase flows
 
 I have developed `computational multiphase flow` models to study two different categories of interfacial phenomena: `solidification` (liquid-solid phase transformations) and `particle-laden suspensions` (no phase transformations). For the first category, I have developed phase-field models for `droplet freezing` on ice that capture key wetting phenomena which remain poorly understood - `droplet spreading`, `partial wetting`, and `contact line pinning`. These models provide new fundamental insights into the dynamics of `unsaturated` flows in `ice-bearing porous media` systems under subfreezing conditions. For the second category, I have developed continuum models for simulating the displacement of `particle-laden suspensions` in `unsaturated Hele-Shaw cells`. These models mechanistically capture `shear-induced particle migration` and elucidate its role in the evolution of `particle-induced viscous fingering`. These continuum models can be used to better understand contaminant transport in soils, wastewater infiltration, and the transport of industrial slurries in confined systems. 
