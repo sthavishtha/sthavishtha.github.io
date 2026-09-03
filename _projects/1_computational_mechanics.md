@@ -19,10 +19,9 @@ I have developed `computational multiphase flow` models to study two different c
 <div class="row justify-content-sm-center align-items-end mt-4 video-pair">
   <div class="col-md-6 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/solidification.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Simulation video of droplet freezing on ice.</div>
+    <div class="caption">Simulation video of droplet freezing on ice under subfreezing conditions.</div>
   </div>
   <div class="col-md-6 mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/seaiceconvection.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
     <div class="caption">Simulation video will be made available shortly. </div>
   </div>
 </div>
@@ -33,7 +32,6 @@ Several continuum models have been developed to study the multiphysics behavior 
 
 <div class="row justify-content-sm-center mt-4 video-pair">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/dsm.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
     <div class="caption">Simulation video will be made available shortly. </div>
   </div>
 </div>
