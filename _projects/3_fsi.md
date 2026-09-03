@@ -62,21 +62,21 @@ _styles: >
 ---
 
 <div class="theme-lead" markdown="1">
-I have used `computational multiphase fluid-structure interaction` models to uncover new fundamental mechanisms involving `capillarity`, fluid flow and solid deformation of `soft materials` in `micro- and nano-scale systems`. At these length-scales, the deformation of `soft materials` is driven primarily by `capillary forces`. My interest in this field is motivated by the limited availability of predictive computational frameworks for accurately modeling and understanding such interfacial phenomena.
+I have used `computational multiphase fluid-structure interaction` models to uncover new fundamental mechanisms involving `capillarity`, fluid flow and deformation of `soft materials` in `micro- and nano-scale systems`. At these length-scales, the deformation of `soft materials` is driven primarily by `capillary forces` acting at the fluid-fluid interfaces. My interest in this field is motivated by the limited availability of predictive computational frameworks for accurately modeling and understanding such interfacial phenomena.
 </div>
 
-## Bubble/droplet transport on soft solids
+## Spontaneous droplet transport on soft solids
 
-We have recently pioneered the concept of `droplet fibrotaxis`, a new droplet transport mechanism that enables spontaneous droplet motion on `soft anisotropic solids`. The droplet transport herein, emerges from [elasto-capillary](https://doi.org/10.1146/annurev-conmatphys-031016-025326) interactions between the droplet and the underlying anisotropic solid. This droplet transport mechanism complements other elasto-capillary driven droplet transport mechanisms, such as [durotaxis](https://doi.org/10.1073/pnas.1307122110), [tensotaxis](https://doi.org/10.1016/j.eml.2017.01.004), [bendotaxis](https://doi.org/10.1103/PhysRevLett.122.074503) and substrate stretching. Droplet fibrotaxis has potential applications in `self-cleaning of surfaces, microfluidics, lab-on-a-chip technologies, and medical diagnostics`, where interactions between deformable solids and droplets play an important role.
+Droplet transport is important in a wide range of applications, including `self-cleaning of surfaces`, `microfluidics`, `lab-on-a-chip technologies`, and `medical diagnostics`. Spontaneous droplet transport on rigid solids has been well established; however, the spontaneous motion of droplets on soft solids remains relatively less explored. Here, we propose `droplet fibrotaxis`, a new droplet transport mechanism that enables directional, spontaneous and gradient-free droplet motion on `soft anisotropic solids`. Droplet motion in `fibrotaxis` arises from [elasto-capillarity](https://doi.org/10.1146/annurev-conmatphys-031016-025326), and it complements other elasto-capillary driven droplet transport mechanisms, such as [durotaxis](https://doi.org/10.1073/pnas.1307122110), [tensotaxis](https://doi.org/10.1016/j.eml.2017.01.004), and [bendotaxis](https://doi.org/10.1103/PhysRevLett.122.074503). 
 
 <div class="row justify-content-sm-center align-items-center mt-4 video-pair">
   <div class="col-md-5 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/pages/fibroschematic.png" class="img-fluid schematic" alt="Droplet resting on a fiber-reinforced soft solid, with the fiber orientation indicated" %}
-    <div class="caption">Schematic of a droplet on a fiber-reinforced deformable solid with embedded fibers inducing anisotropy.</div>
+    <div class="caption">Schematic of a droplet on a fiber-reinforced deformable solid. The white arrow depicts the orientation of fibers. Image credit: DALL-E </div>
   </div>
   <div class="col-md-7 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/Fibrotaxis_3D_planar.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Three-dimensional simulation of droplet fibrotaxis.</div>
+    <div class="caption">Video of a three-dimensional simulation demonstrating droplet fibrotaxis. The black arrow depicts the orientation of fibers. </div>
   </div>
 </div>
 

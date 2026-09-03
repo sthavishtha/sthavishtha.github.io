@@ -95,7 +95,7 @@ Turbulent reacting sprays are ubiquitous in gas turbines and internal combustion
 <div class="row justify-content-sm-center mt-4 video-pair">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/turb-comb.mp4" class="img-fluid" controls=true autoplay=true loop=true muted=true playsinline=true nodownload=true %}
-    <div class="caption">Two-dimensional slices of decane vapor mass fraction (left) and gas-phase temperature (right). Droplets are shown as black circles, and magnified for visualization purposes.</div>
+    <div class="caption">Two-dimensional slices of decane vapor mass fraction (left) and gas-phase temperature (right). Droplets are shown as black circles and magnified for visualization purposes.</div>
   </div>
 </div>
 
