@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Computational mechanics
-img: assets/img/publication_preview/iga.jpeg
+img: assets/img/publication_preview/cm_gemini.jpeg
 importance: 1
 category: research
 _styles: >

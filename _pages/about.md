@@ -7,7 +7,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sbr.jpg
   image_circular: true
   more_info: >
     <p><strong>Advisor:</strong> Prof. Hector Gomez</p>

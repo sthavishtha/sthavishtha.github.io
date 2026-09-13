@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multiphase flows
-img: assets/img/publication_preview/pinchoff.png
+img: assets/img/publication_preview/cryh_gemini.jpeg
 importance: 2
 category: research
 related_publications: false

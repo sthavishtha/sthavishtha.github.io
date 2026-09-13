@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fluid-structure interaction
-img: assets/img/publication_preview/fibrotaxis.png
+img: assets/img/publication_preview/fsi_gemini.jpeg
 importance: 3
 category: research
 _styles: >
