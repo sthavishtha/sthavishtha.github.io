@@ -59,13 +59,18 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
 
   .more-info {
+    margin-top: 1rem;
     margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
 
     p {
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 0 0 0.5rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -79,14 +84,17 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media (min-width: 576px) {
-  .profile {
+  .profile.float-right,
+  .profile.float-left {
     width: 30%;
+  }
+}
 
-    .address {
-      p {
-        display: block;
-      }
-    }
+.about-hero {
+  margin-bottom: 1.5rem;
+
+  .profile {
+    margin-bottom: 1.5rem;
   }
 }
 

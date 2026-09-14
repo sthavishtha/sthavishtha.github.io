@@ -620,6 +620,17 @@ mjx-container[jax="CHTML"][display="true"] {
   }
 }
 
+/* Reuse-permission and disclaimer note at the foot of the research pages. */
+.disclaimer {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 /* Topic filter on the publications page. */
 .pub-filter {
   display: flex;

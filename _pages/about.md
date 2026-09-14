@@ -2,20 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: >
-  PhD Candidate &middot; <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> &middot; <a href='https://www.purdue.edu'>Purdue University</a>
 
 profile:
   align: right
   image: sbr.jpg
   image_circular: true
   more_info: >
-    <p><strong>Advisor:</strong> Prof. Hector Gomez</p>
-    <br>
-    <p><strong>Education</strong></p>
     <p>Postdoctoral Research Associate, Caltech, USA</p>
     <p>Ph.D. in Mechanical Engineering (Minor in Computational Science &amp; Engineering), Purdue University, USA</p>
-    <p>M.Sc. in Mechanical Engineering (Specialization in Fluid Science &amp; Engineering), ETH Zurich, Switzerland</p>
+    <p>M.Sc. in Mechanical Engineering (Specialization in Fluid Science &amp; Engineering), ETH Z&uuml;rich, Switzerland</p>
     <p>B.Tech in Mechanical Engineering, National Institute of Technology Karnataka, Surathkal, India</p>
 
 selected_papers: false
@@ -36,8 +31,8 @@ My current work develops high-fidelity computational models for **elasto-capilla
 
 Previously, I worked on turbulent reacting flows at the [Institute of Fluid Dynamics, ETH Zurich](https://www.ifd.mavt.ethz.ch/), and on lattice Boltzmann modeling for conjugate heat transfer and rarefied gas flows. I completed my undergraduate education at NIT Karnataka, India, where I first explored cavity-flow simulations using lattice Boltzmann methods.
 
-<div class="row justify-content-sm-center mt-4">
-  <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row mt-4">
+  <div class="col-12">
     {% include figure.liquid loading="eager" path="assets/img/researchcloud.png" class="img-fluid rounded" alt="Word cloud summarizing frequently used terms in my research" %}
     <div class="caption">A snapshot of the terms that come up most often across my research.</div>
   </div>
