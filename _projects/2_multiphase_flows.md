@@ -113,6 +113,5 @@ Turbulent reacting sprays are ubiquitous in gas turbines and internal combustion
 
 <div class="disclaimer mt-4" markdown="1">
 Reuse of any images or videos on this web page require the explicit permission of Sthavishtha Bhopalam &lt;sbhopala(at)caltech(dot)edu&gt;
-
 *Disclaimer*: Any opinions, findings, conclusions, or recommendations expressed on this webpage are those of Sthavishtha and do not reflect the views of any entities named or implied.
 </div>
