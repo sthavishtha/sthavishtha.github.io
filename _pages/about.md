@@ -13,9 +13,10 @@ profile:
     <p><strong>Advisor:</strong> Prof. Hector Gomez</p>
     <br>
     <p><strong>Education</strong></p>
-    <p>(2019&ndash;present) Ph.D., Purdue University</p>
-    <p>(2017&ndash;2019) Research, ETH Zurich</p>
-    <p>(2013&ndash;2017) B.Tech., NIT Karnataka</p>
+    <p>Postdoctoral Research Associate, Caltech, USA</p>
+    <p>Ph.D. in Mechanical Engineering (Minor in Computational Science &amp; Engineering), Purdue University, USA</p>
+    <p>M.Sc. in Mechanical Engineering (Specialization in Fluid Science &amp; Engineering), ETH Zurich, Switzerland</p>
+    <p>B.Tech in Mechanical Engineering, National Institute of Technology Karnataka, Surathkal, India</p>
 
 selected_papers: false
 social: true
