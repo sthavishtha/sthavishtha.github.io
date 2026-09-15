@@ -31,7 +31,7 @@ I develop predictive multiphysics models for moving contact line problems in mul
 
 <div class="row mt-4">
   <div class="col-12">
-    {% include figure.liquid loading="eager" path="assets/img/researchcloud.png" class="img-fluid rounded" alt="Word cloud summarizing frequently used terms in my research" %}
+    {% include figure.liquid loading="eager" path="assets/img/researchcloud.png" class="img-fluid rounded mx-auto d-block" width="50%" alt="Word cloud summarizing frequently used terms in my research" %}
     <div class="caption">A snapshot of the terms that frequently come up in my research.</div>
   </div>
 </div>

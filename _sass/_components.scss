@@ -120,18 +120,24 @@ ul.task-list input[type="checkbox"] {
     justify-content: space-between;
   }
 
-  // Enlarge the profile column (image + more-info) by 10% relative to
-  // its default col-md-4, and give the bio column back the difference.
+  // Enlarge the profile column (image + more-info): +10% relative to
+  // its default col-md-4, then +15% more on top of that, and give the
+  // bio column back the difference.
   @media (min-width: 768px) {
     .col-md-4 {
-      flex: 0 0 36.6667%;
-      max-width: 36.6667%;
+      flex: 0 0 42.1667%;
+      max-width: 42.1667%;
     }
 
     .col-md-8 {
-      flex: 0 0 63.3333%;
-      max-width: 63.3333%;
+      flex: 0 0 57.8333%;
+      max-width: 57.8333%;
     }
+  }
+
+  // Justify the bio paragraph(s) in the body column.
+  .about-body p {
+    text-align: justify;
   }
 }
 
