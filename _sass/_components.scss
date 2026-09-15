@@ -73,10 +73,13 @@ ul.task-list input[type="checkbox"] {
   }
 
   // Give the profile's theme-lead a light gray tint instead of the
-  // site accent color, without touching .theme-lead on other pages.
+  // site accent color, and match the page's body text size, without
+  // touching .theme-lead on other pages.
   .theme-lead {
     border-left-color: var(--global-text-color-light);
     background-color: color-mix(in srgb, var(--global-text-color-light) 10%, transparent);
+    font-size: 1rem;
+    line-height: 1.5;
   }
 }
 
@@ -98,8 +101,23 @@ ul.task-list input[type="checkbox"] {
 .about-hero {
   margin-bottom: 1.5rem;
 
+  // The row stretches both columns to equal height by default
+  // (Bootstrap's align-items: stretch), and space-between pushes any
+  // leftover height from that stretch into the gap between each
+  // column's two blocks, so the shorter column's content lines up
+  // with the bottom of the taller one instead of trailing off higher
+  // up. Each block keeps its own margin as a minimum gap.
   .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
+  }
+
+  .about-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   // Enlarge the profile column (image + more-info) by 10% relative to
