@@ -61,8 +61,6 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-top: 1rem;
     margin-bottom: 5px;
-    font-size: 0.85rem;
-    line-height: 1.5;
 
     p {
       display: block;
@@ -72,6 +70,13 @@ ul.task-list input[type="checkbox"] {
         margin-bottom: 0;
       }
     }
+  }
+
+  // Give the profile's theme-lead a light gray tint instead of the
+  // site accent color, without touching .theme-lead on other pages.
+  .theme-lead {
+    border-left-color: var(--global-text-color-light);
+    background-color: color-mix(in srgb, var(--global-text-color-light) 10%, transparent);
   }
 }
 
@@ -95,6 +100,20 @@ ul.task-list input[type="checkbox"] {
 
   .profile {
     margin-bottom: 1.5rem;
+  }
+
+  // Enlarge the profile column (image + more-info) by 10% relative to
+  // its default col-md-4, and give the bio column back the difference.
+  @media (min-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 36.6667%;
+      max-width: 36.6667%;
+    }
+
+    .col-md-8 {
+      flex: 0 0 63.3333%;
+      max-width: 63.3333%;
+    }
   }
 }
 

@@ -8,10 +8,12 @@ profile:
   image: sbr.jpg
   image_circular: true
   more_info: >
-    <p>Postdoctoral Research Associate, Caltech, USA</p>
-    <p>Ph.D. in Mechanical Engineering (Minor in Computational Science &amp; Engineering), Purdue University, USA</p>
-    <p>M.Sc. in Mechanical Engineering (Specialization in Fluid Science &amp; Engineering), ETH Z&uuml;rich, Switzerland</p>
-    <p>B.Tech in Mechanical Engineering, National Institute of Technology Karnataka, Surathkal, India</p>
+    <div class="theme-lead">
+      <p>Postdoctoral Research Associate, Caltech, USA</p>
+      <p>Ph.D. in Mechanical Engineering (Minor in CSE), Purdue University, USA</p>
+      <p>M.Sc. in Mechanical Engineering (specialization: Fluid Science &amp; Engineering), ETH Z&uuml;rich, Switzerland</p>
+      <p>B.Tech in Mechanical Engineering, NIT Surathkal, India</p>
+    </div>
 
 selected_papers: false
 social: true
